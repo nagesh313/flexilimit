@@ -1,0 +1,30 @@
+.ant-table-row-level-0 > td:first-child {
+  border-right: unset !important;
+}
+th {
+  background-color: white !important;
+}
+.ant-table-selection-column {
+  border-right: unset !important;
+}
+.ant-table-row-level-1 > td:first-child > label {
+  visibility: hidden;
+}
+th:first-child,
+.ant-table-row-level-0 > td:first-child,
+.ant-table-row-level-1 > td:first-child {
+  padding: unset !important;
+  min-width: 30px !important;
+}
+/* .ant-table-row-level-1 .delete-btn {
+  display: none !important;
+}
+.ant-table-row-level-0 .edit-btn {
+  display: none !important;
+}*/
+.ant-table-row-expand-icon-spaced {
+  display: none !important;
+}
+.new-facility-row-add {
+  background-color: #f0f0f0;
+}
